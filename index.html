@@ -5,7 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Discord Nasıl Kurulur? | SÜES - Selçuk Üniversitesi E-Spor Topluluğu</title>
   <meta name="description" content="Selçuk Üniversitesi Elektronik Sporlar Topluluğu Discord sunucusuna katılmak için GoodbyeDPI kurulum rehberi. Türkiye'de Discord'u açmak için adım adım anlatım." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <!-- ═══ Security Headers ════════════════════════════════════════════ -->
+  <!-- Content-Security-Policy: only allow resources from self + known trusted CDNs -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self';
+                 style-src 'self' https://fonts.googleapis.com;
+                 font-src 'self' https://fonts.gstatic.com;
+                 img-src 'self' data:;
+                 connect-src 'self';
+                 frame-ancestors 'none';" />
+  <!-- Prevent MIME-type sniffing -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <!-- Do not send Referer header to third-party sites -->
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- Disable sensitive browser features not needed by this page -->
+  <meta http-equiv="Permissions-Policy"
+        content="camera=(), microphone=(), geolocation=(), payment=()" />
+  <!-- Allow indexing but prevent following outbound links automatically -->
+  <meta name="robots" content="index, follow" />
+  <!-- ════════════════════════════════════════════════════════════════ -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
@@ -34,7 +56,7 @@
         Türkiye'den Discord'a erişmek için <strong>GoodbyeDPI</strong> aracını
         kullanman gerekiyor. Bu rehber seni 5 dakikada sunucumuza kavuşturur.
       </p>
-      <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener" id="hero-discord-btn" class="btn btn-primary btn-glow">
+      <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener noreferrer" id="hero-discord-btn" class="btn btn-primary btn-glow">
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 127.14 96.36" fill="currentColor" aria-hidden="true">
           <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
         </svg>
@@ -73,7 +95,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
               .ZIP İndir
             </a>
-            <a href="https://github.com/cagritaskn/GoodbyeDPI-Turkey" target="_blank" rel="noopener" id="github-goodbyedpi" class="btn btn-ghost">
+            <a href="https://github.com/cagritaskn/GoodbyeDPI-Turkey" target="_blank" rel="noopener noreferrer" id="github-goodbyedpi" class="btn btn-ghost">
               GitHub
             </a>
           </div>
@@ -98,11 +120,11 @@
             </div>
           </div>
           <div class="card-actions">
-            <a href="https://discord.com/download" target="_blank" rel="noopener" id="download-discord" class="btn btn-discord">
+            <a href="https://discord.com/download" target="_blank" rel="noopener noreferrer" id="download-discord" class="btn btn-discord">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
               Discord İndir
             </a>
-            <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener" id="join-server-card" class="btn btn-ghost">
+            <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener noreferrer" id="join-server-card" class="btn btn-ghost">
               Sunucuya Katıl
             </a>
           </div>
@@ -341,7 +363,7 @@
             <p>
               Ethernet adaptörü kullanan bazı kullanıcılarda sorun yaşanabilir.
               Technopat forumundaki <strong>harmanprecious</strong> kullanıcısının çözüm rehberine bakabilirsin:
-              <a href="https://www.technopat.net/sosyal/konu/goodbyedpi-ethernet-kartiyla-calismiyorsa-ne-yapilmali.3619948/" target="_blank" rel="noopener">Technopat Ethernet Çözüm Rehberi →</a>
+              <a href="https://www.technopat.net/sosyal/konu/goodbyedpi-ethernet-kartiyla-calismiyorsa-ne-yapilmali.3619948/" target="_blank" rel="noopener noreferrer">Technopat Ethernet Çözüm Rehberi →</a>
             </p>
           </div>
         </details>
@@ -362,7 +384,7 @@
         </div>
         <h2>Hazır mısın?</h2>
         <p>GoodbyeDPI kurulduktan sonra hemen Selçuk Üniversitesi Elektronik Sporlar sunucumuza katıl!</p>
-        <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener" id="cta-join-btn" class="btn btn-primary btn-glow btn-xl">
+        <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener noreferrer" id="cta-join-btn" class="btn btn-primary btn-glow btn-xl">
           Sunucuya Katıl →
         </a>
         <p class="cta-note">discord.gg/9AReVnfCC8</p>
@@ -377,9 +399,9 @@
         <strong>SÜES</strong> — Selçuk Üniversitesi Elektronik Sporlar Topluluğu
       </p>
       <p class="footer-links">
-        <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener" id="footer-discord">Discord Sunucusu</a>
+        <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener noreferrer" id="footer-discord">Discord Sunucusu</a>
         &nbsp;·&nbsp;
-        <a href="https://github.com/cagritaskn/GoodbyeDPI-Turkey" target="_blank" rel="noopener" id="footer-github">GoodbyeDPI GitHub</a>
+        <a href="https://github.com/cagritaskn/GoodbyeDPI-Turkey" target="_blank" rel="noopener noreferrer" id="footer-github">GoodbyeDPI GitHub</a>
       </p>
     </div>
   </footer>
