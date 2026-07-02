@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discord Nasıl Kurulur? | SKESK - Selçuk Üniversitesi E-Spor Topluluğu</title>
+  <meta name="description" content="Selçuk Üniversitesi Elektronik Sporlar Topluluğu Discord sunucusuna katılmak için GoodbyeDPI kurulum rehberi. Türkiye'de Discord'u açmak için adım adım anlatım." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Animated background particles -->
+  <div class="bg-particles" aria-hidden="true">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <!-- Header / Hero -->
+  <header class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="badge-chip">
+        <span class="badge-dot"></span>
+        Selçuk Üniversitesi Elektronik Sporlar Topluluğu
+      </div>
+      <h1>Discord'a Nasıl<br /><span class="gradient-text">Erişilir?</span></h1>
+      <p class="hero-sub">
+        Türkiye'den Discord'a erişmek için <strong>GoodbyeDPI</strong> aracını
+        kullanman gerekiyor. Bu rehber seni 5 dakikada sunucumuza kavuşturur.
+      </p>
+      <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener" id="hero-discord-btn" class="btn btn-primary btn-glow">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 127.14 96.36" fill="currentColor" aria-hidden="true">
+          <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+        </svg>
+        Sunucumuza Katıl
+      </a>
+    </div>
+  </header>
+
+  <!-- Warning Banner -->
+  <section class="warning-section" aria-label="Önemli uyarı">
+    <div class="container">
+      <div class="warning-card">
+        <div class="warning-icon" aria-hidden="true">⚠️</div>
+        <div class="warning-content">
+          <h2>Yasal Uyarı</h2>
+          <p>
+            Bu rehberde anlatılan GoodbyeDPI uygulamasının kullanımından doğan her türlü yasal sorumluluk kullanan kişiye aittir. Uygulama yalnızca eğitim ve araştırma amaçları ile yazılmış olup; kullanmak ya da kullanmamak tamamen kullanıcının kendi seçimidir.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section class="downloads-section" id="downloads" aria-label="İndirme linkleri">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Önce Bunları İndir</h2>
+        <p class="section-sub">İki araç da tamamen ücretsizdir.</p>
+      </div>
+      <div class="download-cards">
+
+        <article class="download-card card-goodbyedpi">
+          <div class="card-icon-wrap">
+            <div class="card-icon">🛡️</div>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Adım 1</span>
+            <h3>GoodbyeDPI Turkey</h3>
+            <p>Discord engelini aşmak için gereken araç. Türkiye için özel olarak yapılandırılmış versiyon.</p>
+            <div class="card-meta">
+              <span class="meta-badge">v0.2.3rc3</span>
+              <span class="meta-badge">Windows</span>
+              <span class="meta-badge">Ücretsiz</span>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="https://github.com/cagritaskn/GoodbyeDPI-Turkey/releases/download/release-0.2.3rc3-turkey/goodbyedpi-0.2.3rc3-turkey.zip"
+               id="download-goodbyedpi"
+               class="btn btn-secondary" download>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              .ZIP İndir
+            </a>
+            <a href="https://github.com/cagritaskn/GoodbyeDPI-Turkey" target="_blank" rel="noopener" id="github-goodbyedpi" class="btn btn-ghost">
+              GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="download-card card-discord">
+          <div class="card-icon-wrap">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 127.14 96.36" fill="currentColor" aria-hidden="true">
+                <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Adım 2</span>
+            <h3>Discord</h3>
+            <p>GoodbyeDPI kurduktan sonra Discord uygulamasını indir ve kur.</p>
+            <div class="card-meta">
+              <span class="meta-badge">Windows</span>
+              <span class="meta-badge">macOS</span>
+              <span class="meta-badge">Ücretsiz</span>
+            </div>
+          </div>
+          <div class="card-actions">
+            <a href="https://discord.com/download" target="_blank" rel="noopener" id="download-discord" class="btn btn-discord">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Discord İndir
+            </a>
+            <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener" id="join-server-card" class="btn btn-ghost">
+              Sunucuya Katıl
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Steps Section -->
+  <section class="steps-section" id="kurulum" aria-label="Kurulum adımları">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">GoodbyeDPI Kurulumu</h2>
+        <p class="section-sub">İki yöntem var — yurdumda veya okul ağında kullanıyorsan Batch yöntemini tercih et.</p>
+      </div>
+
+      <!-- Method 1: Service -->
+      <div class="method-block">
+        <div class="method-header">
+          <span class="method-label">⚙️ Alternatif Yöntem</span>
+          <h3>Yöntem 1 — Hizmet Olarak Kur (Otomatik Başlatma)</h3>
+          <p>Bilgisayar her açıldığında otomatik çalışır. Ancak bazı ağlarda (yurt, okul Wi-Fi) belirli sitelere erişimi engelleyebilir.</p>
+        </div>
+
+        <div class="note-box info-box">
+          <span class="note-icon">📌</span>
+          <div>
+            <strong>Dikkat:</strong> ZIP dosyasını çıkardığın konumdan <strong>taşıma!</strong> Hizmet, dosyaların ilk çıkartıldığı yolu kullanır. Tavsiye edilen konum: <code>C:\GoodbyeDPI\</code>
+          </div>
+        </div>
+
+        <ol class="steps-list" id="steps-service">
+          <li class="step-item">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h4>ZIP Dosyasını İndir</h4>
+              <p>Yukarıdaki <strong>GoodbyeDPI Turkey</strong> indirme butonuna tıkla ve dosyayı bir yere kaydet.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h4>ZIP'i Çıkart</h4>
+              <p>ZIP dosyasına sağ tıkla → <strong>"Tümünü Ayıkla"</strong> seçeneğini seç. Örneğin <code>C:\GoodbyeDPI\</code> dizinine çıkart.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <h4>Hizmet Dosyasını Çalıştır</h4>
+              <p>Çıkarttığın klasörden <code>service_install_dnsredir_turkey.cmd</code> dosyasına <strong>sağ tıkla</strong> → <strong>"Yönetici Olarak Çalıştır"</strong> seç.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-num">4</div>
+            <div class="step-content">
+              <h4>Bir Tuşa Bas</h4>
+              <p>Açılan konsol penceresinde herhangi bir tuşa bas. Pencere kapandığında hizmet kurulmuş ve başlamış demektir.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-num">5</div>
+            <div class="step-content">
+              <h4>Discord'u Aç 🎉</h4>
+              <p>Artık Discord'u açabilirsin! Bilgisayar yeniden başlatıldığında GoodbyeDPI otomatik çalışır.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="note-box warning-box">
+          <span class="note-icon">⚠️</span>
+          <div>
+            <strong>Yurtta veya okul ağında kullanıyorsan bu yöntemi tercih etme.</strong> Hizmet olarak kurulduğunda GSB Wi-Fi veya bazı kampüs siteleri erişilemez hale gelebilir. Bunun yerine <strong>Yöntem 2 (Batch)</strong>'i kullan.
+          </div>
+        </div>
+        <div class="note-box">
+          <span class="note-icon">ℹ️</span>
+          <div>
+            GoodbyeDPI'ı kaldırmak istersen klasördeki <code>service_remove.cmd</code> dosyasını yönetici olarak çalıştır.
+          </div>
+        </div>
+      </div>
+
+      <!-- Method 2: Batch (Recommended) -->
+      <div class="method-block">
+        <div class="method-header">
+          <span class="method-label recommended">✅ Tavsiye Edilen</span>
+          <h3>Yöntem 2 — Batch Dosyasıyla Çalıştır</h3>
+          <p>Discord'a girmek istediğinde çalıştır, işin bitince kapat. Yurt veya okul ağında sorun çıkarmaz.</p>
+        </div>
+
+        <ol class="steps-list" id="steps-batch">
+          <li class="step-item">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h4>ZIP Dosyasını İndir ve Çıkart</h4>
+              <p>GoodbyeDPI Turkey ZIP dosyasını indirip istediğin bir yere çıkart.</p>
+            </div>
+          </li>
+          <li class="step-item">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h4>Batch Dosyasını Çalıştır</h4>
+              <p>Klasördeki <code>turkey_dnsredir.cmd</code> dosyasına sağ tıkla → <strong>"Yönetici Olarak Çalıştır"</strong> seç. Konsol penceresi açık kaldığı sürece GoodbyeDPI çalışır.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="note-box info-box">
+          <span class="note-icon">💡</span>
+          <div>
+            Pencereyi kapattığında GoodbyeDPI durur — bu aslında bir avantaj. Yurt veya okul ağındaysan sadece Discord kullanacağın zaman aç, bitince kapat.
+          </div>
+        </div>
+
+        <div class="note-box warning-box">
+          <span class="note-icon">⚠️</span>
+          <div>
+            <strong><code>turkey_dnsredir.cmd</code> çalışmıyorsa</strong> klasörde bulunan alternatif dosyaları tek tek dene:<br /><br />
+            <code>turkey_dnsredir_alternative1_superonline.cmd</code><br />
+            <code>turkey_dnsredir_alternative2_superonline.cmd</code><br />
+            <code>turkey_dnsredir_alternative3_superonline.cmd</code><br />
+            <code>turkey_dnsredir_alternative4_superonline.cmd</code><br />
+            <code>turkey_dnsredir_alternative5_superonline.cmd</code><br />
+            <code>turkey_dnsredir_alternative6_superonline.cmd</code><br /><br />
+            Her birine sağ tıkla → <strong>Yönetici Olarak Çalıştır</strong> → Discord'un açılıp açılmadığını kontrol et. Sana uyan birini bulduğunda hep onu kullan.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Troubleshoot Section -->
+  <section class="trouble-section" id="sorunlar" aria-label="Sık karşılaşılan sorunlar">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Sorun mu Yaşıyorsun?</h2>
+        <p class="section-sub">Sık karşılaşılan problemler ve çözümleri.</p>
+      </div>
+
+      <div class="faq-list" id="faq-list">
+
+        <details class="faq-item" id="faq-antivirus">
+          <summary class="faq-summary">
+            <span class="faq-q">🛡️ Antivirüs dosyaları siliyor veya "WinDivert bulunamadı" hatası alıyorum</span>
+            <span class="faq-arrow">›</span>
+          </summary>
+          <div class="faq-answer">
+            <p>
+              Antivirüs, WinDivert sürücüsünü yanlışlıkla tehdit olarak algılayabilir.
+              Çözmek için antivirüs programının <strong>dışlamalar/istisnalar</strong> listesine GoodbyeDPI klasörünü ekle.
+            </p>
+            <ul>
+              <li><strong>Windows Defender:</strong> Ayarlar → Windows Güvenliği → Virüs Koruması → Dışlamalar → Klasör Ekle → GoodbyeDPI klasörünü seç.</li>
+              <li><strong>Kaspersky kullanıyorsan</strong> ve sorun devam ediyorsa Kaspersky'yi tamamen kaldırıp tekrar kurulum yap.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item" id="faq-filepath">
+          <summary class="faq-summary">
+            <span class="faq-q">📁 "Dosya yolu bulunamadı" hatası</span>
+            <span class="faq-arrow">›</span>
+          </summary>
+          <div class="faq-answer">
+            <p>
+              Kurulum yaptıktan sonra GoodbyeDPI klasörünü başka bir yere taşıdıysan bu hata oluşur.
+              Çözmek için:
+            </p>
+            <ol>
+              <li>Önce <code>service_remove.cmd</code> dosyasını yönetici olarak çalıştır.</li>
+              <li>ZIP'i yeni konuma tekrar çıkart.</li>
+              <li>Kurulum adımlarını baştan uygula.</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="faq-item" id="faq-slowsites">
+          <summary class="faq-summary">
+            <span class="faq-q">🐢 Bazı siteler yavaş açılıyor veya açılmıyor</span>
+            <span class="faq-arrow">›</span>
+          </summary>
+          <div class="faq-answer">
+            <p>
+              TTL ayarından kaynaklanan bir sorun olabilir. TTL içermeyen alternatif yöntemleri dene:
+            </p>
+            <ol>
+              <li>Önce <code>service_remove.cmd</code>'yi yönetici olarak çalıştır.</li>
+              <li>Sonra <code>service_install_dnsredir_turkey_alternative2_superonline.cmd</code> veya <code>service_install_dnsredir_turkey_alternative4_superonline.cmd</code> dosyasını yönetici olarak çalıştır.</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="faq-item" id="faq-discordapp">
+          <summary class="faq-summary">
+            <span class="faq-q">🌐 Discord web açılıyor ama uygulama açılmıyor (fiber kullanıcıları)</span>
+            <span class="faq-arrow">›</span>
+          </summary>
+          <div class="faq-answer">
+            <p>
+              Bu genellikle fiber hat kullanan kişilerde görülen bir sorundur. Aşağıdaki adımı dene:
+            </p>
+            <ol>
+              <li>GoodbyeDPI çalışır durumdayken herhangi bir <strong>ücretsiz VPN</strong> aç.</li>
+              <li>Discord'u başlat ve açılmasını bekle.</li>
+              <li>Discord açıldıktan sonra VPN'i kapat ve kullanmaya devam et.</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="faq-item" id="faq-superonline">
+          <summary class="faq-summary">
+            <span class="faq-q">🔄 "Discord update failed - retrying" hatası (SuperOnline kullanıcıları)</span>
+            <span class="faq-arrow">›</span>
+          </summary>
+          <div class="faq-answer">
+            <p>SuperOnline Fiber kullanıcıları için alternatif yöntemler:</p>
+            <ol>
+              <li>Mevcut servisi kaldır: <code>service_remove.cmd</code> → Yönetici Olarak Çalıştır</li>
+              <li>Alternatif CMD dosyalarından birini dene:<br />
+                <code>turkey_dnsredir_alternative1_superonline.cmd</code> ... <code>alternative6_superonline.cmd</code> arasından birini yönetici olarak çalıştır.</li>
+              <li>Windows ayarlarından DNS'ini <strong>Yandex DNS (77.88.8.8)</strong> veya <strong>Cloudflare (1.1.1.1)</strong> olarak değiştir.</li>
+              <li>Bilgisayarı yeniden başlat.</li>
+            </ol>
+          </div>
+        </details>
+
+        <details class="faq-item" id="faq-ethernet">
+          <summary class="faq-summary">
+            <span class="faq-q">🔌 Ethernet bağlantısında GoodbyeDPI çalışmıyor</span>
+            <span class="faq-arrow">›</span>
+          </summary>
+          <div class="faq-answer">
+            <p>
+              Ethernet adaptörü kullanan bazı kullanıcılarda sorun yaşanabilir.
+              Technopat forumundaki <strong>harmanprecious</strong> kullanıcısının çözüm rehberine bakabilirsin:
+              <a href="https://www.technopat.net/sosyal/konu/goodbyedpi-ethernet-kartiyla-calismiyorsa-ne-yapilmali.3619948/" target="_blank" rel="noopener">Technopat Ethernet Çözüm Rehberi →</a>
+            </p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Join Server -->
+  <section class="cta-section" aria-label="Sunucuya katıl">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <div class="cta-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 127.14 96.36" fill="currentColor">
+            <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+          </svg>
+        </div>
+        <h2>Hazır mısın?</h2>
+        <p>GoodbyeDPI kurulduktan sonra hemen Selçuk Üniversitesi Elektronik Sporlar sunucumuza katıl!</p>
+        <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener" id="cta-join-btn" class="btn btn-primary btn-glow btn-xl">
+          Sunucuya Katıl →
+        </a>
+        <p class="cta-note">discord.gg/9AReVnfCC8</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <strong>SKESK</strong> — Selçuk Üniversitesi Elektronik Sporlar Topluluğu
+      </p>
+      <p class="footer-links">
+        <a href="https://discord.com/invite/9AReVnfCC8" target="_blank" rel="noopener" id="footer-discord">Discord Sunucusu</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/cagritaskn/GoodbyeDPI-Turkey" target="_blank" rel="noopener" id="footer-github">GoodbyeDPI GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
