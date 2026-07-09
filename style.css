@@ -747,6 +747,45 @@ code {
   color: var(--purple);
 }
 
+.footer-credits {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.credit-link {
+  color: var(--purple);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition);
+}
+
+.credit-link:hover {
+  color: var(--indigo);
+  text-decoration: underline;
+}
+
+.github-credit-link {
+  color: var(--text-muted);
+  transition: color var(--transition);
+  display: inline-flex;
+  align-items: center;
+}
+
+.github-credit-link:hover {
+  color: var(--text);
+  transform: scale(1.05);
+}
+
+.github-icon {
+  transition: transform var(--transition);
+}
+
 /* ── Responsive ─────────────────────────────────────────── */
 @media (max-width: 640px) {
   .hero { padding: 70px 16px 60px; }
